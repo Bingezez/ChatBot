@@ -10,7 +10,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
 
-TOKEN = "1563593697:AAGDw95bA0-g8D5mghfwTJbPQ7YNa8WW-rY"
+TOKEN = "TOKEN"
 
 bot = Bot(token=TOKEN, parse_mode="HTML")
 dp = Dispatcher(bot, storage=MemoryStorage())
